@@ -1,0 +1,13 @@
+::ng-deep .navbar-custom {
+  background-color: white !important;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.nav-link {
+  color: #ee0979 !important;
+}
+
+
+.navbar-toggler-icon {
+  background-color: #ee0979;
+}

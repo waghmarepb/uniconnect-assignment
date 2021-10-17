@@ -1,0 +1,70 @@
+<!-- Header-->
+<header class="masthead text-center text-white">
+  <div class="masthead-content">
+    <div class="container px-5">
+      <h1 class="masthead-heading mb-0">One Page Wonder</h1>
+      <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
+    </div>
+  </div>
+  <div class="bg-circle-1 bg-circle"></div>
+  <div class="bg-circle-2 bg-circle"></div>
+  <div class="bg-circle-3 bg-circle"></div>
+  <div class="bg-circle-4 bg-circle"></div>
+  <app-search></app-search>
+</header>
+<!-- Content section 1-->
+<section id="scroll">
+  <div class="container px-5">
+    <div class="row gx-5 ">
+      <h2 class="" style="text-align: center; margin-top: 10px !important; font-size: 30px;">
+        Explore 'Incredible India', Your Way
+      </h2>
+      <div style="text-align: center; margin-top: 10px !important; font-size: 16px; font-weight: bold; ">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+          aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam
+          exercitationem, ea animi blanditiis recusandae! Ratione voluptatum
+          molestiae adipisci, beatae obcaecati.
+        </p>
+      </div>
+
+
+      <app-slider class="responsive"></app-slider>
+
+    </div>
+  </div>
+
+</section>
+<app-banner-full-width></app-banner-full-width>
+
+<app-why-choose-vista></app-why-choose-vista>
+<!-- Content section 2-->
+<app-image-grid></app-image-grid>
+<!-- Content section 3-->
+<section>
+  <div class="container px-5">
+    <div class="row gx-5 align-items-center">
+      <h2 class="" style="text-align: center;
+          padding-top: 40px;">User Data</h2>
+      <app-table *ngIf='tableData' [tableData]='tableData'></app-table>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Footer-->
+<footer class="py-5 bg-black">
+  <div class="container px-5">
+    <p class="m-0 text-center text-white small">
+      Copyright &copy; Your Website 2021
+    </p>
+  </div>
+</footer>
+<router-outlet></router-outlet>
+
+<script>
+
+</script>

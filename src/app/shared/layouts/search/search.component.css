@@ -1,0 +1,42 @@
+.search-form{
+box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px;
+bottom: 0px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+}
+.vwo-search-box {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+}
+input#vwo-mobile-city, input#date-range, input#guest {
+    border: 1px solid #000!important;
+    width: 100%;
+    color: #404a4c;
+}
+.search-container-fotm {
+    position: relative;
+    z-index: 10;
+}
+
+.vwo-search-box label {
+    color: #000;
+    padding-top: 12px;
+    font-size: 14px;
+}
+
+.search-btn{
+    font-size: 18px;
+    background-color: #df495b;
+    color: #fff;
+    margin-top: 35px;
+    font-weight: 600;
+    border-radius: 4px!important;
+}
